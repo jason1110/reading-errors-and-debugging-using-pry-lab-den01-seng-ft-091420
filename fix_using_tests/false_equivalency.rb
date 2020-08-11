@@ -1,3 +1,4 @@
+require pry
 # don't forget to add: require 'pry'
 
 def get_user_input
@@ -16,6 +17,8 @@ def selection(num)
   elsif num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
+  binding.pry
+  puts "Binded"
 end
 
 def runner
